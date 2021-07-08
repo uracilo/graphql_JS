@@ -6,16 +6,7 @@
 npm start
 ```
 
-
-
-```
-{
-  clientes{
-    id
-    nombre
-  }
-}
-```
+- Query to put a new Client
 
 
 ```
@@ -24,6 +15,16 @@ mutation{
     id
     nombre
     telefono
+  }
+}
+```
+- Query to get all clients with name and id
+
+```
+{
+  clientes{
+    id
+    nombre
   }
 }
 ```
